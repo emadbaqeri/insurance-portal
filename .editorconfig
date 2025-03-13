@@ -1,0 +1,29 @@
+# EditorConfig is a file format that helps maintain consistent coding styles
+# across different editors and IDEs: https://editorconfig.org/
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+# Biome.js will handle formatting for these files
+# We're just setting basic editor behavior that won't conflict
+[*.{js,jsx,ts,tsx,json}]
+indent_size = 2
+
+[*.{css,scss,html}]
+indent_size = 2
+
+[*.{py}]
+indent_size = 4
+
+[Makefile]
+indent_style = tab

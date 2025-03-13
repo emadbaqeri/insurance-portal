@@ -1,0 +1,344 @@
+{
+	"en": {
+		"translation": {
+			"submissions": {
+				"meta": {
+					"title": "Insurance Submissions",
+					"ogTitle": "Insurance Portal - Submissions Management",
+					"description": "View and manage all insurance form submissions"
+				},
+				"page": {
+					"title": "Insurance Submissions",
+					"newSubmission": "New Submission",
+					"loading": "Loading submissions...",
+					"error": "Error loading submissions: {{errorMessage}}",
+					"noSubmissions": "No submissions found",
+					"search": "Search across all columns...",
+					"columnSettings": "Column settings",
+					"toggleColumns": "Toggle columns",
+					"showing": "Showing {{visible}} of {{total}} results",
+					"columnSearch": "Search...",
+					"hoverCard": {
+						"sortAscending": "Click to sort ascending",
+						"sortDescending": "Click to sort descending",
+						"clearSort": "Click to clear sort"
+					},
+					"pagination": {
+						"show10": "Show 10",
+						"show25": "Show 25",
+						"show50": "Show 50"
+					},
+					"booleanValues": {
+						"yes": "Yes",
+						"no": "No"
+					}
+				}
+			},
+			"insuranceForm": {
+				"back": "Back",
+				"error": {
+					"title": "Error",
+					"submitMessage": "Failed to submit the form. Please try again."
+				},
+				"success": {
+					"title": "Success",
+					"message": "Your form has been submitted successfully!"
+				}
+			},
+			"home": {
+				"meta": {
+					"title": "Insurance Portal Dashboard",
+					"ogTitle": "Insurance Portal - Your Coverage at a Glance",
+					"description": "Access your insurance policies, claims, and account information"
+				},
+				"loading": "Loading insurance forms...",
+				"error": {
+					"title": "Error"
+				},
+				"noData": {
+					"title": "No Data",
+					"message": "No insurance forms available at this time."
+				},
+				"availableForms": "Available Insurance Forms",
+				"clickToApply": "Click to apply to insurance"
+			},
+			"common": {
+				"appTitle": "INS Portal",
+				"changeLanguage": "Change language",
+				"selectLanguage": "Select language",
+				"languages": {
+					"english": "English",
+					"french": "French",
+					"turkish": "Turkish"
+				}
+			},
+			"navigation": {
+				"home": "Home",
+				"submissions": "Submissions"
+			},
+			"colorScheme": {
+				"toggle": "Toggle color scheme",
+				"light": "Light",
+				"dark": "Dark",
+				"system": "System"
+			},
+			"dynamicForm": {
+				"submitting": "Submitting...",
+				"submitForm": "Submit Form",
+				"clearForm": "Clear Form",
+				"draftSaved": "Draft saved automatically",
+				"loading": "Loading options...",
+				"error": {
+					"title": "Error",
+					"fixErrors": "Please fix the errors above before submitting."
+				},
+				"input": {
+					"description": "Input description",
+					"placeholder": "Input placeholder",
+					"enterNumber": "Enter number",
+					"enterField": "Enter {{field}}"
+				},
+				"select": {
+					"placeholder": "Select..."
+				},
+				"validation": {
+					"required": "This field is required",
+					"invalidSelection": "Invalid selection",
+					"min": "Minimum value: {{value}}",
+					"max": "Maximum value: {{value}}",
+					"pattern": "Invalid format",
+					"invalid": "Invalid value"
+				},
+				"unknownFieldType": "Unknown field type: {{type}}"
+			}
+		}
+	},
+	"fr": {
+		"translation": {
+			"submissions": {
+				"meta": {
+					"title": "Soumissions d'assurance",
+					"ogTitle": "Portail d'assurance - Gestion des soumissions",
+					"description": "Consulter et gérer toutes les soumissions de formulaires d'assurance"
+				},
+				"page": {
+					"title": "Soumissions d'assurance",
+					"newSubmission": "Nouvelle soumission",
+					"loading": "Chargement des soumissions...",
+					"error": "Erreur lors du chargement des soumissions: {{errorMessage}}",
+					"noSubmissions": "Aucune soumission trouvée",
+					"search": "Rechercher dans toutes les colonnes...",
+					"columnSettings": "Paramètres des colonnes",
+					"toggleColumns": "Afficher/masquer les colonnes",
+					"showing": "Affichage de {{visible}} sur {{total}} résultats",
+					"columnSearch": "Rechercher...",
+					"hoverCard": {
+						"sortAscending": "Cliquer pour trier par ordre croissant",
+						"sortDescending": "Cliquer pour trier par ordre décroissant",
+						"clearSort": "Cliquer pour effacer le tri"
+					},
+					"pagination": {
+						"show10": "Afficher 10",
+						"show25": "Afficher 25",
+						"show50": "Afficher 50"
+					},
+					"booleanValues": {
+						"yes": "Oui",
+						"no": "Non"
+					}
+				}
+			},
+			"insuranceForm": {
+				"back": "Retour",
+				"error": {
+					"title": "Erreur",
+					"submitMessage": "Échec de l'envoi du formulaire. Veuillez réessayer."
+				},
+				"success": {
+					"title": "Succès",
+					"message": "Votre formulaire a été soumis avec succès!"
+				}
+			},
+			"home": {
+				"meta": {
+					"title": "Tableau de bord du portail d'assurance",
+					"ogTitle": "Portail d'assurance - Votre couverture en un coup d'œil",
+					"description": "Accédez à vos polices d'assurance, réclamations et informations de compte"
+				},
+				"loading": "Chargement des formulaires d'assurance...",
+				"error": {
+					"title": "Erreur"
+				},
+				"noData": {
+					"title": "Aucune donnée",
+					"message": "Aucun formulaire d'assurance disponible pour le moment."
+				},
+				"availableForms": "Formulaires d'assurance disponibles",
+				"clickToApply": "Cliquez pour faire une demande d'assurance"
+			},
+			"common": {
+				"appTitle": "Portail INS",
+				"changeLanguage": "Changer de langue",
+				"selectLanguage": "Sélectionner la langue",
+				"languages": {
+					"english": "Anglais",
+					"french": "Français",
+					"turkish": "Turc"
+				}
+			},
+			"navigation": {
+				"home": "Accueil",
+				"submissions": "Soumissions"
+			},
+			"colorScheme": {
+				"toggle": "Changer le thème",
+				"light": "Clair",
+				"dark": "Sombre",
+				"system": "Système"
+			},
+			"dynamicForm": {
+				"submitting": "Envoi en cours...",
+				"submitForm": "Soumettre le formulaire",
+				"clearForm": "Effacer le formulaire",
+				"draftSaved": "Brouillon enregistré automatiquement",
+				"loading": "Chargement des options...",
+				"error": {
+					"title": "Erreur",
+					"fixErrors": "Veuillez corriger les erreurs ci-dessus avant de soumettre."
+				},
+				"input": {
+					"description": "Description de l'entrée",
+					"placeholder": "Texte indicatif",
+					"enterNumber": "Entrez un nombre",
+					"enterField": "Entrez {{field}}"
+				},
+				"select": {
+					"placeholder": "Sélectionnez..."
+				},
+				"validation": {
+					"required": "Ce champ est obligatoire",
+					"invalidSelection": "Sélection invalide",
+					"min": "Valeur minimale: {{value}}",
+					"max": "Valeur maximale: {{value}}",
+					"pattern": "Format invalide",
+					"invalid": "Valeur invalide"
+				},
+				"unknownFieldType": "Type de champ inconnu: {{type}}"
+			}
+		}
+	},
+	"tr": {
+		"translation": {
+			"submissions": {
+				"meta": {
+					"title": "Sigorta Başvuruları",
+					"ogTitle": "Sigorta Portalı - Başvuru Yönetimi",
+					"description": "Tüm sigorta formu başvurularını görüntüleyin ve yönetin"
+				},
+				"page": {
+					"title": "Sigorta Başvuruları",
+					"newSubmission": "Yeni Başvuru",
+					"loading": "Başvurular yükleniyor...",
+					"error": "Başvurular yüklenirken hata oluştu: {{errorMessage}}",
+					"noSubmissions": "Başvuru bulunamadı",
+					"search": "Tüm sütunlarda ara...",
+					"columnSettings": "Sütun ayarları",
+					"toggleColumns": "Sütunları aç/kapat",
+					"showing": "{{total}} sonuçtan {{visible}} gösteriliyor",
+					"columnSearch": "Ara...",
+					"hoverCard": {
+						"sortAscending": "Artan sıralama için tıklayın",
+						"sortDescending": "Azalan sıralama için tıklayın",
+						"clearSort": "Sıralamayı temizlemek için tıklayın"
+					},
+					"pagination": {
+						"show10": "10 göster",
+						"show25": "25 göster",
+						"show50": "50 göster"
+					},
+					"booleanValues": {
+						"yes": "Evet",
+						"no": "Hayır"
+					}
+				}
+			},
+			"insuranceForm": {
+				"back": "Geri",
+				"error": {
+					"title": "Hata",
+					"submitMessage": "Form gönderilirken hata oluştu. Lütfen tekrar deneyin."
+				},
+				"success": {
+					"title": "Başarılı",
+					"message": "Formunuz başarıyla gönderildi!"
+				}
+			},
+			"home": {
+				"meta": {
+					"title": "Sigorta Portalı Kontrol Paneli",
+					"ogTitle": "Sigorta Portalı - Teminatlarınız Tek Bakışta",
+					"description": "Sigorta poliçelerinize, taleplerinize ve hesap bilgilerinize erişin"
+				},
+				"loading": "Sigorta formları yükleniyor...",
+				"error": {
+					"title": "Hata"
+				},
+				"noData": {
+					"title": "Veri Yok",
+					"message": "Şu anda mevcut sigorta formu bulunmamaktadır."
+				},
+				"availableForms": "Mevcut Sigorta Formları",
+				"clickToApply": "Sigorta başvurusu yapmak için tıklayın"
+			},
+			"common": {
+				"appTitle": "INS Portalı",
+				"changeLanguage": "Dil değiştir",
+				"selectLanguage": "Dil seçin",
+				"languages": {
+					"english": "İngilizce",
+					"french": "Fransızca",
+					"turkish": "Türkçe"
+				}
+			},
+			"navigation": {
+				"home": "Ana Sayfa",
+				"submissions": "Başvurular"
+			},
+			"colorScheme": {
+				"toggle": "Renk şemasını değiştir",
+				"light": "Açık",
+				"dark": "Koyu",
+				"system": "Sistem"
+			},
+			"dynamicForm": {
+				"submitting": "Gönderiliyor...",
+				"submitForm": "Formu Gönder",
+				"clearForm": "Formu Temizle",
+				"draftSaved": "Taslak otomatik olarak kaydedildi",
+				"loading": "Seçenekler yükleniyor...",
+				"error": {
+					"title": "Hata",
+					"fixErrors": "Lütfen göndermeden önce yukarıdaki hataları düzeltin."
+				},
+				"input": {
+					"description": "Giriş açıklaması",
+					"placeholder": "Giriş yer tutucusu",
+					"enterNumber": "Sayı girin",
+					"enterField": "{{field}} girin"
+				},
+				"select": {
+					"placeholder": "Seçin..."
+				},
+				"validation": {
+					"required": "Bu alan zorunludur",
+					"invalidSelection": "Geçersiz seçim",
+					"min": "Minimum değer: {{value}}",
+					"max": "Maksimum değer: {{value}}",
+					"pattern": "Geçersiz format",
+					"invalid": "Geçersiz değer"
+				},
+				"unknownFieldType": "Bilinmeyen alan türü: {{type}}"
+			}
+		}
+	}
+}

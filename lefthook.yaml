@@ -1,0 +1,42 @@
+pre-push:
+  parallel: true
+  commands:
+    packages-audit:
+      tags: frontend security
+      run: npm audit --prod # Only check production dependencies
+      skip_empty: true
+  fail_fast: true
+
+commit-msg:
+  commands:
+    lint-commit-msg:
+      run: npm run commitlint {1}
+
+pre-commit:
+  parallel: true
+  commands:
+    biome:
+      tags: formatting linting
+      glob: "src/**/*.{js,ts,jsx,tsx,json,css,scss,md}" # Expanded file patterns
+      run: npx biome check --apply --unsafe {staged_files}
+      stage_fixed: true # Automatically stage fixed files
+      skip_empty: true
+
+    typecheck:
+      glob: "**/*.{ts,tsx}" # Check all TypeScript files recursively
+      run: npm run typecheck
+
+    test:unit:
+      glob: "**/*.{spec,test}.{[tj]s,[tj]sx}" # Match test files in any directory
+      run: npm exec vitest --run --environment jsdom --changed {staged_files}
+  fail_fast: true
+
+scripts:
+  "check-all":
+    runner: bash
+    command: |
+      echo "🚀 Running full project check..."
+      npx biome check --write --unsafe .
+      npm exec tsc --noEmit
+      npm test -- --run
+      echo "✅ All checks passed!"
